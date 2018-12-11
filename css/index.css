@@ -2,7 +2,7 @@
 azul: #009ADE; cinza: #4C4C4C; rosa: #EC0080; preto: 000; amarelo: #FFEA00; branco: #fff;
 */
 
-												/*========== FONTES ==========*/
+						/*========== FONTES ==========*/
 @font-face {
     font-family: CN Bold;
     src: url(../fonts/CnBold.otf);
@@ -13,7 +13,7 @@ azul: #009ADE; cinza: #4C4C4C; rosa: #EC0080; preto: 000; amarelo: #FFEA00; bran
     src: url(../fonts/Whitney.otf);
 }
 
-												/*========== NAV ==========*/
+						/*========== NAV ==========*/
 html, body {
 	width: 100%;
 	height: 100%;
@@ -48,7 +48,7 @@ input {
 	outline: none;
 }
 
-												/*========== HEADER ==========*/
+						/*========== HEADER ==========*/
 header {
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -62,13 +62,13 @@ header h1 {
 	margin-left: 20px;
 }
 
-												/*========== CONTEUDO ==========*/
+						/*========== CONTEUDO ==========*/
 .conteudo {
 	display: flex;
 	justify-content: space-around;
 }
 
-												/*========== GRADE ==========*/
+						/*========== GRADE ==========*/
 .grades {
 	width: 550px;
 	display: flex;
@@ -129,7 +129,7 @@ header h1 {
 	cursor: pointer;
 }
 
-												/*========== DETALHES ==========*/
+						/*========== DETALHES ==========*/
 .detalhes {
 	width: 500px;
 	height: 545px;
@@ -188,7 +188,7 @@ header h1 {
 	margin-left: 230px;
 }
 
-												/*========== DESENHOS ==========*/
+						/*========== DESENHOS ==========*/
 .desenhos {	
 	height: 100px;
 	margin-top: 35px;
@@ -214,7 +214,7 @@ header h1 {
 	cursor: pointer;
 }
 
-												/*========== FOOTER ==========*/
+						/*========== FOOTER ==========*/
 .rodape1 {
 	height: 150px;
 	color: #FFF;
@@ -247,7 +247,7 @@ b {
 	padding: 0 15px 0 0;
 }
 
-												/*========== MODAIS ==========*/
+						/*========== MODAIS ==========*/
 .modal-detalhe {
 	position: relative;
 	margin: -950px auto;
