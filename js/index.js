@@ -7,7 +7,7 @@ $(function() {
    	let datas = $('#dias');
 
    	let data = new Date(); 
-   	let diaM = data.getDate();			// dia do mes
+   	let diaM = data.getDate();				// dia do mes
    	let diaS = []; 						// dia da semana
 	diaS[0] = 'DOMINGO';
 	diaS[1] = 'SEGUNDA';
@@ -42,7 +42,7 @@ $(function() {
 
 	  /* ======================= */
 	 /* SETA DIA ATUAL NA GRADE */
-    /* ======================= */
+    	/* ======================= */
 
   	let horas = data.getHours();
   	let texto = $('.grade:contains('+horas+')');
@@ -59,9 +59,9 @@ $(function() {
   		$('.vertical1').text(hora);
   	}
     
-      /* ======================== */
+      	  /* ======================== */
 	 /* TROCA COR E DIA DETALHES */
-    /* ======================== */
+        /* ======================== */
 
    	let txtVert = $('.vertical1');
    	let h1 = $('.detalhes h1');
@@ -82,7 +82,7 @@ $(function() {
 
 	  /* ====== */
 	 /* MODAIS */
-    /* ====== */
+        /* ====== */
 
 	let modalDetalhe = $('#modal-detalhe');
 	let modalDesenho = $('#modal-desenho');
@@ -140,7 +140,7 @@ $(function() {
 		$('.nav,header,.conteudo,.desenhos,.rodape').removeClass('fundo-opaco');
 	}) 
 
-    $(document).on('mouseup', function(e) {
+    	$(document).on('mouseup', function(e) {
 
 	    if (!modalDetalhe.is(e.target) && modalDetalhe.has(e.target).length === 0 || 
 	    	!modalDesenho.is(e.target) && modalDesenho.has(e.target).length === 0) {
